@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.5rem;
 
 }
 
@@ -17,18 +18,19 @@ body{
 h1 {
     color: rgb(255, 0, 242);
     text-align: center;
-    line-height: 5rem;
+    line-height: 3rem;
 }
 
 .description{
     color: rgb(9, 255, 0);
     text-align: center;
-    line-height: 5rem;
+    line-height: 2rem;
 }
 
 h3{
     text-align: center;
     color: white;
+    line-height: 3rem;
 }
 
 p{
@@ -40,4 +42,9 @@ h2{
     text-align: center;
     line-height: 5rem;
     color: white;
+}
+
+a {
+    color: rgb(248, 152, 219);
+    
 }
