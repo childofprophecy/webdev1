@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  font-family: 'Bungee Spice';
+  background-color: #161616;
+  padding: 50px;
+}
+
+body{
+  max-width: 2000px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+main{
+  background-color: #cd3e27;
+  padding: 50px;
+  color: White;
+  font-family: 'Carter One';
+  font-size: 24px;
+}
+
+footer{
+  text-align: center;
+  background-color: #0e1335;
+  padding: 50px;
+  color: White;
+}
+
+img{
+  width: 100%;
+  max-width: 1000px;
+  display: block;
+}
+
+h2{
+  color: black;
+}

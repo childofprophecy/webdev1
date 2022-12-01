@@ -1,0 +1,75 @@
+body{
+    background: url(https://media2.giphy.com/media/3og0IV7MOCfnm85iRa/giphy-downsized-large.gif);
+    font-family: "Arial"
+  }
+  
+  p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  h1{
+    color: white;
+    text-align: center;
+  }
+  
+  img{
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .Simulation{
+    position: absolute;
+    right: 0;
+    top: 45%;
+  }
+  
+  .Anatomy{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .Definition{
+    position: absolute;
+    left: 0;
+  }
+  
+  .Real{
+    position: absolute;
+    right: 0;
+    top: 115%;
+  }
+  
+  .Information{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: black;
+    background-color: white;
+  }
+  
+  .Discription{
+    position: absolute;
+    left: 50px;
+    top: 52%;
+    text-align: left;
+    padding-right: 500px;
+  }
+  
+  .ImageDiscription{
+    position: absolute;
+    left: 50px;
+    top: 135%;
+    text-align: left;
+    padding-right: 520px;
+  }
+  
+  .AnatomyDiscription{
+    position: absolute;
+    right: 10px;
+    top: 80%;
+    text-align: left;
+    padding-left: 520px;
+  }

@@ -1,0 +1,24 @@
+h1 {
+    Color: Blue;
+  }
+  
+  p {
+    color: White;
+  }
+  
+  body {
+    background-color: Black;
+  }
+  
+  img {
+    width: 600px;
+  }
+  
+  .color {
+    color: pink;
+    border: 10px dashed blue;
+  }
+  
+  .logo {
+    width: 200px;
+  }

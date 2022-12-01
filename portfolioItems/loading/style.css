@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animation-container{
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.animation-container2{
+  position: absolute;
+  left: 70%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.sky{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  animation-name: cycleSky;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+}
+
+.ground{
+  border-radius: 50%;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  top: 80%;
+  background-color: green;
+}
+
+.moonSun{
+  border-radius: 50%;
+  position: relative;
+  left: 40%;
+  top: -350%;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  animation-name: cycle;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cycle{
+  50%{
+    top: 0%;
+    background-color: transparent;
+  }
+  100%{
+    top: -350%;
+    background-color: yellow;
+  }
+}
+
+@keyframes cycleSky{
+  33%{
+    background-color: #112545;
+  }
+  60%{
+    background-color: #bf973f;
+  }
+  100%{
+    background-color: #03b3ff;
+  }
+}
+
+p{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hour{
+  border-radius: 50%;
+  width: 20px;
+  height: 150px;
+  background-color: blue;
+  transform-origin: bottom center;
+  animation-name: rotate;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.minute{
+  border-radius: 50%;
+  width: 20px;
+  height: 200px;
+  position: relative;
+  top: -33%;
+  background-color: red;
+  transform-origin: bottom center;
+  animation-name: rotate;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.second{
+  border-radius: 50%;
+  width: 20px;
+  height: 250px;
+  position: relative;
+  top: -25%;
+  background-color: green;
+  transform-origin: bottom center;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.buffer{
+  position: absolute;
+  top: -150%;
+  left: -150%;
+}
