@@ -1,23 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: gray;
 
 }
 
 body{
     max-width: 40rem;
     margin: 0 auto;
+    font-family: 'Merienda', cursive;
+    background: url(https://media.tenor.com/IvyuPtEfzhoAAAAM/matrix.gif);
 }
 
 h1 {
-    color: red;
+    color: rgb(0, 6, 126);
+    text-align: center;
+    line-height: 5rem;
+}
+
+.description{
+    color: rgb(9, 255, 0);
+    text-align: center;
+    line-height: 5rem;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+p{
+    line-height: 3rem;
     text-align: center;
 }
 
-p {
-    color: blue;
+h2{
     text-align: center;
     line-height: 5rem;
+    color: white;
 }
